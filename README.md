@@ -21,17 +21,19 @@ Desenvolvido em Laravel 8.27, constitui-se de uma api para atender uma plataform
 
 ## Configuração
 
-1. Configurar banco de dados no arquivo .env (no desenvolvimento foi usado banco de dados mysql);
+1. Rodar o comando 'composer install' para instalar as dependências do projeto;
 
-2. No terminal rodar o comando 'php artisan migrate --seed' para rodar as migrations juntamente com os envios automáticos para o banco de dados;
+2. Configurar banco de dados no arquivo .env (no desenvolvimento foi usado banco de dados mysql);
 
-3. Na raiz do projeto, rodar o comando 'php artisan serve' no terminal para subir o servidor;
+3. No terminal rodar o comando 'php artisan migrate --seed' para rodar as migrations juntamente com os envios automáticos para o banco de dados;
 
-4. Entrar na rota /api/documentation para acessar a documentação completa das rotas;
+4. Na raiz do projeto, rodar o comando 'php artisan serve' no terminal para subir o servidor;
 
-5. Fazer o login na rota /api/login com 'bruno@teste.com' e senha '123' para resgatar o token bearer;
+5. Entrar na rota /api/documentation para acessar a documentação completa das rotas;
 
-6. Inserir o token resgatado para poder acessar as outras rotas marcadas por um cadeado.
+6. Fazer o login na rota /api/login com 'bruno@teste.com' e senha '123' para resgatar o token bearer;
+
+7. Inserir o token resgatado para poder acessar as outras rotas marcadas por um cadeado.
 
 
 ## Muito obrigado!
